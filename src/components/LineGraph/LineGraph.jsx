@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+// eslint-disable-next-line no-unused-vars
 import Chart from "chart.js/auto";
 import "chartjs-adapter-moment";
 import { Line } from "react-chartjs-2";
