@@ -1,0 +1,40 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infoBox--cases {
+  border-top: 1rem solid var(--clr-yellow);
+}
+
+.infoBox--recovered {
+  border-top: 1rem solid var(--clr-green);
+}
+
+.infoBox--deaths {
+  border-top: 1rem solid var(--clr-red);
+}
+
+.infoBox__today-data {
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-block: 0.3rem;
+}
+
+.cases {
+  color: var(--clr-yellow);
+}
+
+.recovered {
+  color: var(--clr-green);
+}
+
+.deaths {
+  color: var(--clr-red);
+}
+
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+}

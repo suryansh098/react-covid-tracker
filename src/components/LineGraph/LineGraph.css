@@ -1,0 +1,24 @@
+.graph__container {
+  height: 300px;
+  margin-top: 2rem;
+}
+
+.graph__info {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 2px solid var(--clr-green);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--clr-green);
+  background-color: var(--clr-green-light);
+}
+
+.graph__info strong {
+  max-width: 300px;
+  padding: 1rem;
+  text-align: center;
+}

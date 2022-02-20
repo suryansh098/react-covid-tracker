@@ -1,0 +1,42 @@
+.map {
+  height: 600px;
+  background-color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.map .leaflet-container {
+  height: 100%;
+}
+
+.popup-container {
+  width: 12rem;
+}
+
+.country-flag {
+  height: 8rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin-block: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.country-flag img {
+  width: 100%;
+  height: 100%;
+}
+
+.country-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.country-confirmed,
+.country-recovered,
+.country-deaths {
+  font-size: 1rem;
+  margin-top: 5px;
+}
